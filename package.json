@@ -1,5 +1,6 @@
-{
-  "name": "album",
+{    
+  "homepage": "https://yourusername.github.io/your-app",
+   "name": "album",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
