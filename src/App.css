@@ -1,0 +1,119 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+/* Styling for the AlbumsComponent */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li div p {
+  margin: 0;
+  font-size: 16px;
+}
+
+li div button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #007b89;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+li div button.edit {
+  background-color: #ffc107;
+  margin-right: 10px;
+}
+
+li div button.delete {
+  background-color: #dc3545;
+}
+
+/* Styling for the AddAlbumForm */
+form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="number"],
+input[type="text"],
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type="number"],
+input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
